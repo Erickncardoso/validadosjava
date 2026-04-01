@@ -1,0 +1,30 @@
+2026-03-31 20:38:12.165329-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PERSON ID [*]CPF"; SQL statement:
+SELECT * FROM PERSON ID CPF [42000-232]
+2026-03-31 20:38:18.508798-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CPF" not found; SQL statement:
+SELECT * FROM CPF [42102-232]
+2026-03-31 20:38:28.571746-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CPF"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CPF [42001-232]
+2026-03-31 20:38:41.612815-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CPF PERSON SELECT * FROM PERSON"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CPF PERSON SELECT * FROM PERSON [42001-232]
+2026-03-31 20:38:43.548122-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]CPF PERSON SELECT * FROM PERSON"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CPF PERSON SELECT * FROM PERSON [42001-232]
+2026-03-31 20:38:54.107563-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID"; expected "INSERT"; SQL statement:
+ID [42001-232]
+2026-03-31 20:38:58.652149-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID"; expected "INSERT"; SQL statement:
+ID [42001-232]
+2026-03-31 20:39:04.652000-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ID"; expected "INSERT"; SQL statement:
+ID [42001-232]
+2026-03-31 20:39:17.851890-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ID" not found; SQL statement:
+SELECT * FROM ID [42102-232]
+2026-03-31 20:39:19.730162-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ID" not found; SQL statement:
+SELECT * FROM ID [42102-232]
